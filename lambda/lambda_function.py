@@ -20,9 +20,9 @@ from ask_sdk_model import Response
 
 # Establish connection with the airtable table_name
 
-base_id = 'appUxL431LDEny2rN'
-table_name = 'Audio'
-api_key = 'key92CgIBTMyfB3Zx'
+base_id = 'your_airtable_base_id'
+table_name = 'table_name'
+api_key = 'your_airtable_api_key'
 
 table = Airtable(base_id, table_name, api_key)
 
